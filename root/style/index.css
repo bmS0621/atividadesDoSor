@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .carrinho {
+    background: url(./assets/59e5531ab44ffbedbc0f40ecf97d5385.png) no-repeat top right;
+    background-size: contain;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    margin-top: 0px;
+    height: 30px;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  #lupa {
+    height: 20px;
+    width: auto;
+  }
+  
+  button[type='submit'] {
+    margin-left: 10px;
+    margin-top: 2px;
+    border: none;
+    background: transparent;
+  }
+  
+  .logo {
+    margin: 10px;
+    height: 80px;
+    width: 170px;
+  }
+  
+  img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .menu-opcoes ul {
+    font-size: 15px;
+  }
+  
+  .menu-opcoes a {
+    color: #000000;
+  }
+  
+  body {
+    background: linear-gradient(to bottom,black,purple)
+  }
+  
+  .menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .menu-opcoes ul li a {
+    color: rgb(255, 255, 255)
+  }
+  
+  .carrinho {
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .container {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  header {
+    background-color: rgb(64, 34, 160);
+    position: relative;
+    border-radius: 1%;
+  }
+  
+  .menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .busca,
+  .menu-conteudo {
+    background-color: #3f2196;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10%;
+    width: 15%;
+    float: left;
+  }
+  
+  .busca h2,
+  .busca form,
+  .menu-conteudo h2 {
+    margin: 10px;
+  }
+  
+  .menu-conteudo li {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    list-style: none;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .menu-conteudo {
+    clear: left;
+  }
+  
+  .busca input {
+    vertical-align: middle;
+  }
+  
+  .busca input[type=search] {
+    width: 170px;
+  }
+  #destaques {
+    height: 81vh;
+  }
+  
+  .destaque {
+    margin-top: 10px;
+  }
+  
+  .menu-conteudo {
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .painel {
+    padding: 10px;
+    width: 445px;
+    background: #483187;
+    border-radius: 7px;
+  }
+  
+  .aula1 {
+    margin-left: 80px ;
+    float: left;
+    
+  }
+  
+  .aula2 {
+    float: right;
+   
+  }
+  
+  .aula3 {
+    margin-top: 10px;
+    float: right;
+    
+  }
+  
+  .aula4 {
+    margin-left: 80px;
+    margin-top: 10px;
+    float: left;
+  }
+  
+  .painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+    transition: ease 0.2s ;
+  }
+  
+  .painel li:hover {
+    color: black;
+    box-shadow: 0 0 5px #333;
+    transition: ease-in-out 0.5s;
+    background-color: rgba(255, 255, 255, 0.205);
+    transform: scale(1.2) rotate(-5deg);
+    
+  }
+  
+  .painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+  }
+  
+  .painel a {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  footer .container {
+    width: 100%;
+    background-color: rgb(40, 25, 90);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #footer-logo {
+    margin: 20px;
+  }
+  
+  .social a {
+    color: transparent;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  input{
+    color: black
+  }
+  
+  .social li {
+    float: left;
+    margin-top: 8%;
+    list-style: none;
+    height: 100px;
+  }
+  
+  .social a[href*="facebook.com"] {
+    background: url(../style/assets/fb_icon_325x325.png) no-repeat;
+    background-size: contain;
+  }
+  
+  .social a[href="instagram.com"] {
+    background: url(../style/assets/1384063.png) no-repeat;
+    background-size: contain;
+  }
+  
+  .social a[href*="github.com"] {
+    background: url(../style/assets/GitHub_Invertocat_Logo.svg.png) no-repeat;
+    background-size: contain;
+  }
+  
+  p {
+    font-weight: 100;
+    background-color: rgb(126, 36, 168);
+    text-align: center;
+  }

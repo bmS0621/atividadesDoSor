@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    overflow: hidden;
+}
+
+header,
+main {
+    width: 100%;
+}
+
+header {
+    background-color: rgb(179, 0, 255);
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+header h1 {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(137, 37, 112), rgb(41, 41, 41));
+
+}
+
+section {
+    padding: 50px;
+    background-color: rgb(153, 0, 200);
+}
+
+div button {
+    font-size: 24px;
+    border: none;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(215, 26, 146);
+
+}
